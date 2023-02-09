@@ -149,6 +149,7 @@ input::placeholder {
 .filtresBtn {
     display: flex;
 }
+
 .filtres i {
     margin-right: 8px;
 }
@@ -335,10 +336,6 @@ input::placeholder {
     margin-bottom: 25px;
 }
 
-.sideColumnRating {
-    /* position: absolute; */
-    /* margin-top: 10px; */
-}
 
 .sideColumn img {
 

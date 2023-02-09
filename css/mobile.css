@@ -5,9 +5,6 @@
         flex-direction: column;
     }
 
-    .headerImg {
-        /* padding-bottom: 8%; */
-    }
 
     .headerNav {
         display: flex;
@@ -69,8 +66,9 @@
     }
 
     .filtres button {
-        width: 47%;
+        width: 40%;
         margin: auto;
+        margin-bottom: 4%;
         justify-content: space-around;
     }
 
