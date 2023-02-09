@@ -1,0 +1,137 @@
+@media screen and (max-width: 768px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headerImg {
+        /* padding-bottom: 8%; */
+    }
+
+    .headerNav {
+        display: flex;
+        width: 100%;
+    }
+
+    .headerNavLink {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .headerNavLink:hover {
+        border-bottom: 4px solid #0065fc;
+        border-top: 0;
+        color: #0065fc
+    }
+
+    #h1M {
+        padding: 30px 0 8px 16px;
+    }
+
+    #hosting {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #hostM {
+        /* width: max-content; */
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        background-color: white;
+        min-width: none;
+        padding: 10px;
+        border-radius: 0px;
+        margin-bottom: 0px;
+    }
+
+    #h5M {
+        /* margin-top: 10px; */
+        text-indent: -9999px;
+    }
+
+    .blockHosting article {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        background: none;
+    }
+
+    .filtres {
+        flex-direction: column;
+    }
+
+    .filtresBtn {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .filtres button {
+        width: 47%;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .grille {
+        flex-direction: column;
+    }
+
+    .grilleBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grilleText {
+        flex-direction: column;
+    }
+
+    .grilleAside {
+        flex-direction: column;
+    }
+
+    #sideM {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width: none;
+        padding: 10px;
+        border-radius: 0px;
+    }
+
+    .sideColum article {
+        width: auto;
+        /* height: 144px; */
+
+    }
+
+    #atcM {
+        width: auto;
+        /* height: 144px; */
+    }
+
+    #atcMb {
+        width: auto;
+        height: 144px;
+    }
+
+    .sideColum img {
+        width: 144px;
+    }
+
+    .grilleActivity {
+        flex-direction: column;
+        /* justify-content:center; */
+    }
+
+    .grilleActivity article {
+        width: auto;
+    }
+
+
+    footer {
+        flex-direction: column;
+    }
+
+}

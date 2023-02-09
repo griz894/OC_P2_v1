@@ -1,0 +1,458 @@
+/* import de la police raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+html {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* style général du body */
+body {
+    font-family: 'Raleway', sans-serif;
+    max-width: 1440px;
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* HEADER */
+/* style global du header */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* taille logo booki */
+.headerImg {
+    width: 60px;
+    padding: 16px;
+}
+
+.headerNav {
+    display: flex;
+}
+
+/* nav texte noir et padding */
+.headerNavLink {
+    color: black;
+    padding: 24px;
+    text-decoration: none;
+    border-top: 4px solid white;
+}
+
+/* border et color au survol d'un élement du menu nav */
+.headerNavLink:hover {
+    border-top: 4px solid #0065fc;
+    color: #0065fc
+}
+
+
+/* param taille/coleur etc des titres */
+h1 {
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 16px;
+}
+
+
+h2 {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px;
+}
+
+
+/* BARRE DE RECHERCHE  */
+
+form {
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 20px; */
+    align-items: center;
+}
+
+.fa-location-dot {
+    background-color: #f2f2f2;
+    padding: 16px;
+    border-radius: 18px 0 0 18px;
+    border: solid 2px #f2f2f2;
+}
+
+input[type="text"] {
+    padding: 16px;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    border-left: none;
+    border-right: none;
+}
+
+input::placeholder {
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search {
+    height: 50px;
+    padding: 16px;
+}
+
+.search button {
+    background-color: #0065fc;
+    padding: 16px;
+    width: 132px;
+    border-radius: 0 18px 18px 0;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    border-left: none;
+    border-right: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* FILTRES */
+
+.filtres {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    padding: auto;
+    width: 60%;
+    margin: 16px;
+}
+
+.filtres button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 26px;
+    border: solid #f2f2f2;
+    font-weight: bold;
+    height: 50px;
+    cursor: pointer;
+    padding: 16px;
+    margin: 0 20px 0 20px;
+    width: auto;
+}
+
+.filtresBtn {
+    display: flex;
+}
+.filtres i {
+    margin-right: 8px;
+}
+
+.filtres button:hover {
+    background: #DEEBFF
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 16px;
+}
+
+.info i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    border: solid #f2f2f2 4px;
+    height: 24px;
+    width: 24px;
+    margin-right: 12px;
+}
+
+
+/* couleur des logos filtres */
+.fa-money-bill-wave {
+    color: #0065fc;
+}
+
+.fa-person {
+    color: #0065fc;
+}
+
+.fa-heart {
+    color: #0065fc;
+}
+
+.fa-dog {
+    color: #0065fc;
+}
+
+.fa-info {
+    color: #0065fc
+}
+
+/* structure */
+.grille {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* text-align: justify; */
+}
+
+.grilleText {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+}
+
+.grilleText h4 {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.grilleBox {
+    margin-left: 16px;
+}
+
+/* .grilleRating { */
+/* position: relative; */
+/* margin-top: 1%; */
+/* } */
+
+.blocHostingAll {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.blocHosting {
+    width: 60%;
+    /* min-width: 650px; */
+    background: #f2f2f2;
+    border-radius: 20px;
+    padding: 30px;
+    /* margin: 10px; */
+}
+
+.blocHosting h3 {
+    margin: 10px;
+    font-size: 22px;
+}
+
+.blocHosting h5 {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.blocHosting article {
+    /* display: flex; */
+    /* flex-direction: column; */
+    border-radius: 20px;
+    /* height: 200px; */
+    width: 27%;
+    background: white;
+    box-shadow: #8f87876b 0 0 16px;
+    padding: 6px;
+    margin: 10px;
+}
+
+.blocHosting img {
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+    height: 124px;
+    object-fit: cover;
+}
+
+.grilleAside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sideColumn {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    /* min-width: 360px; */
+    background: #f2f2f2;
+    border-radius: 20px;
+    padding: 30px;
+    /* margin: 10px; */
+}
+
+.sideColumnAlign {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    flex-grow: 2;
+}
+
+.sideColumnBox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sideColumn article {
+    display: flex;
+    /* justify-content: space-between; */
+    border-radius: 20px;
+    /* height: 144px; */
+    height: 26%;
+    width: 100%;
+    background: white;
+    box-shadow: #8f87876b 0 0 16px;
+    padding: 4px;
+    margin-bottom: 34px;
+}
+
+.sideColumnAlign h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sideColumnBox h4 {
+    margin-bottom: 7px;
+}
+
+.sideColumnText {
+    /* padding-right: 8px; */
+    margin-top: -8px;
+    /* width: 169px; */
+    /* height: 60px; */
+    margin-bottom: 25px;
+}
+
+.sideColumnRating {
+    /* position: absolute; */
+    /* margin-top: 10px; */
+}
+
+.sideColumn img {
+
+    border-radius: 20px 0 0 20px;
+    width: 138px;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.fa-chart-line {
+    color: #0065fc;
+}
+
+.fa-star {
+    color: #0065fc;
+}
+
+.grey {
+    color: #f2f2f2;
+}
+
+#hostName {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hostPrice {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+/* ACTIVITES A MARSEILLE */
+.activity {
+    display: flex;
+}
+
+.activityT {
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.grilleActivity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 16px;
+}
+
+.grilleActivity article {
+    border-radius: 20px;
+    /* height: 446px; */
+    width: 22%;
+    background: white;
+    box-shadow: #8f87876b 0 0 16px;
+    margin-bottom: 48px;
+}
+
+.grilleActivity img {
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+}
+
+.activityTitle {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: #f2f2f2;
+    margin-top: 60px;
+    width: 95%;
+    padding: 20px;
+    margin: 16px;
+    margin-bottom: 0%;
+}
+
+.footerMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerMenu a {
+    color: black;
+    /* padding-top: 48px; */
+    padding-bottom: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footerLink {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerMenu h3 {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* @import url(mobile.css) screen and (max-width: 768px); */
